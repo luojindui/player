@@ -1,0 +1,29 @@
+[
+  {
+    "name": "红色高跟鞋",
+    "author": "蔡健雅",
+    "img": "..static/img/1.jpg",
+    "url": "..static/music/红色高跟鞋.mp3",
+    "lrc": "1.lrc",
+    "id": "1",
+    "time": 37
+  },
+  {
+    "name": "一",
+    "author": "AGA",
+    "img": "img/1.jpg",
+    "url": "music/一.mp3",
+    "lrc": "2.lrc",
+    "id": "2",
+    "time": 31
+  },
+  {
+    "name": "悲しみはオーロラに",
+    "author": "Aimer",
+    "img": "img/1.jpg",
+    "url": "music/悲しみはオーロラに.mp3",
+    "lrc": "3.lrc",
+    "id": "3",
+    "time": 38
+  }
+]

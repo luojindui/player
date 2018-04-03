@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="icomoon/demo-files/demo.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+</head>
+<body>
+<div class="musicBody">
+    <div class="bodyHead">
+        <div class="setting">
+            <span class="icon-cog"></span>
+        </div>
+        <div class="headTitle">
+            音乐播放器
+        </div>
+        <div class="homepage">
+            <span class="icon-user"></span>
+        </div>
+        <input type="text" class="searchInput" value="">
+        <div class="searchDiv">
+            <span class="icon-search"></span>
+        </div>
+    </div>
+    <div class="bodyBody">
+        <a href="/" class="musicListButton active">歌曲列表</a>
+        <a href="/mylove" class="myLoveMusicButton">我喜欢的</a>
+        <a href="/rank" class="musicRankButton">播放排行</a>
+    </div>
+    <div class="musicList">
+        {{cell}}
+    </div>
+    <div class="bottom-div"></div>
+</div>
+<script src="../js/rank.js"></script>
+</body>
+</html>
