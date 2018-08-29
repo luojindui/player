@@ -1,4 +1,4 @@
-var log = console.log.bind(console, '*** ')
+var log = console.log.bind(console)
 
 var ajax = function(request) {
     var r = new XMLHttpRequest()
@@ -42,7 +42,7 @@ var musicTemplate = function (music) {
     return t
 }
 
-var inserMusicAll = function (musics) {
+var insertMusicAll = function (musics) {
     var html = ''
     for (var i = 0; i < musics.length; i++) {
         var m = musics[i]

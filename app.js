@@ -1,13 +1,9 @@
-// 引入 express 并且创建一个 express 实例赋值给 app
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
-// 配置了这一行 就可以在 路由函数 中用 request.body 的方式
-// 获取到 ajax 发过来的 json 格式数据
 app.use(bodyParser.json())
 
-// 配置静态文件目录
 app.use(express.static('static'))
 
 const appendRedHeart = function (b, name, author, id) {
@@ -270,7 +266,6 @@ app.post('/removeMyLove', function (request, response) {
     response.send(data)
 })
 
-// 但是 1024 以下的端口是系统保留端口，需要管理员权限才能使用
 const server = app.listen(8081, function () {
     const host = server.address().address
     const port = server.address().port
